@@ -7,7 +7,7 @@ import kotlinx.coroutines.tasks.await
 import timber.log.Timber
 import java.lang.Exception
 
-class AppDatabase {
+class MusicDatabase {
     private val firestore = FirebaseFirestore.getInstance()
     private val songCollection = firestore.collection(SONG_COLLECTION)
 
